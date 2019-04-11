@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a,ul{
+	list-style: none;
+	text-decoration: none;
+}
+.clear:after{
+	content: '';
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0px;
+}
+.zhong {
+	width: 100%;
+	height: 346px;
+	position: relative;
+	background: url(../img/550bbad0f0259.jpg);
+	background-size:100% 100%;
+}
+
+.do {
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	background: url(../img/h_dbd.png);	
+	z-index: 1;
+}
+
+.daoh {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 66;
+	line-height: 60px;
+}
+
+.daoh ul li {
+	float: left;
+	list-style: none;
+}
+
+.daoh ul li:nth-child(n+2) {
+	margin-left: 77px;
+}
+
+.daoh ul li a {
+	text-decoration: none;
+	color: #038DD8;
+}
+section{
+	width: 1200px;
+	margin: 0 auto;
+}
+section:after{
+	clear: both;
+	display: block;
+	content: " ";
+}
+
+.left{
+	width: 300px;
+	height: 986px;
+	/*height: 657px;*/
+	float: left;
+	background: #F9F9F9;
+}
+.left>.left_top{
+	width=256px;
+	margin: 0 auto;
+	height: 614px;
+	border: 1px dashed #E0E0E0;
+	border-top: 0px;
+	border-radius: 0px 0px 25px 25px;
+}
+.left>.left_top>.left_top_1{
+	width: 100%;
+	/*margin: auto;*/
+	height: 64px;
+	background: #33A3DF;
+	line-height: 64px;
+	color: white;
+	font-size: 30px;
+	position: relative;
+}
+.left>.left_top>.left_top_1>span:nth-child(1){
+	position: absolute;
+	top: 3%;
+	left: 16%;
+	
+}
+.left>.left_top>.left_top_1>span:nth-child(2){
+	position: absolute;
+	left: 36%;
+	font-family:"新宋体";
+	
+	font-size: 35px;
+}
+.left>.left_top>.left_top_2{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	line-height: 40px;
+	top: 10px;
+	background: #33A3DF;
+	color: white;
+
+	
+}
+.left>.left_top>.left_top_2>span:nth-child(1){
+	position: absolute;
+	left: 18%;
+	
+	font-family:"新宋体";
+	
+	font-size: 22px;
+}
+.left>.left_top>.left_top_2>span:nth-child(2){
+	position: absolute;
+	left: 70%;
+}
+.span{
+	width: 90%;
+	height: 55px;
+	position: relative;
+	line-height: 55px;
+	top: 30px;
+	margin: 0 auto;
+	border-top: 2px dashed #E0E0E0;
+	
+}
+.span2{
+	border-bottom: 2px dashed #E0E0E0;
+}
+.span>span:nth-child(1){
+	position: absolute;
+	left: 12%;
+	
+	font-family:"新宋体";
+	
+	font-size: 22px;
+}
+.span>span:nth-child(2){
+	position: absolute;
+	left: 70%;
+}
+.yu{
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	height: 60px;
+	
+}
+.yu>.yu_top{
+	width: 100%;
+	height: 42px;
+	background: #008CD7;
+	line-height: 42px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 25px 25px 0px 0px;
+}
+.yu>div:nth-child(2){
+	width: 100%;
+	height: 18px;
+	background: #67CAFF;
+}
+.input{
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+.input>p{
+	padding-top: 10px;
+}
+.input>p>input{
+	width: 100%;
+	height: 30px;
+}
+.input>p:nth-child(3)>select{
+	width: 100%;
+	height: 30px;
+}
+.input>p:nth-child(4){
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color:#E0E0E0 ;
+}
+.bot{
+	width: 100%;
+	margin-top: 30px;
+}
+.bot>input{
+	width: 80%;
+	height: 30px;
+	border: 1px solid #2FA2DC ;
+	border-radius: 25px 25px 25px 25px;
+}
+section>.right{
+	width: 848px;
+	float: left;
+	border: 2px solid #E0E0E0;
+	border-top: 0px;
+	margin-left: 4%;
+	/*border: 1px solid red;*/
+}
+section>.right>.right_log{
+	width: 90%;
+	margin: auto;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+	border-bottom: 4px solid #E0E0E0;
+}
+section>.right>.right_log>span:nth-child(1){
+      position: absolute;
+      top: 15%;
+}
+section>.right>.right_log>span:nth-child(2){
+	color: #b0b0b0;
+	font-size: 10px;
+	position: absolute;
+	right: 0px;
+	font-weight: bold;
+}
+section>.right>.right_rl{
+	width: 90%;
+	height: 203px;
+	margin: auto;
+	
+}
+.right_rl_right{
+	float: left;
+	padding-top: 4%;
+}
+.right_rl_right ul{
+	
+}
+.right_rl_right>ul>li{
+	float: left;
+}
+.right_rl_right>ul>li:nth-child(n+2){
+	margin-left: 40px;
+}
+.rt1 ul{
+	background: #F5F5F5;
+	margin: 20px 0;
+}
+
+.xiangq{
+	margin: 0 30px;
+	display: inline-block;
+	float: left;
+	background: #F29000;
+}
+.canj{
+	display: inline-block;
+	background: #666666;
+}
+a{
+	color: white;
+}
+.right_rl_left{
+	   margin-left: 42%;
+		padding-top: 4%;
+	
+}
+
+
+
+
